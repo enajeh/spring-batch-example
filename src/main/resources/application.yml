@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: batch-example
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bdd-test
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+
+debug: true
+
+batch:
+  path-file: acteurs.csv
